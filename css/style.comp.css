@@ -178,7 +178,6 @@ body {
       max-height: 2.5rem;
       max-width: 100%;
       -webkit-filter: brightness(70%);
-      /* filter works directly on the element, makes images blurry or abit darker from 100% below.above 100% makes its bright, unlike backdrop filter that only work for background images or color*/
       filter: brightness(70%); }
   .header__btn {
     justify-self: start;
@@ -188,10 +187,6 @@ body {
   background-color: #101d2c;
   grid-column: col-start 7 / full-end;
   padding: 3rem;
-  /*display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; OR */
   display: grid;
   align-content: center;
   justify-content: center;
@@ -250,7 +245,6 @@ body {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  /*OR grid-template: repeat(6, 1fr) / repeat(6, 1fr);        grid-template: rows / columns*/
   align-items: center; }
   @media only screen and (max-width: 50em) {
     .story__pictures {
@@ -282,10 +276,6 @@ body {
   background-color: #f9f7f6;
   grid-column: col-start 5 / full-end;
   padding: 6rem 8vw;
-  /*display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;  OR */
   display: grid;
   justify-items: start;
   align-content: center; }
@@ -361,7 +351,6 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(7, 5vw);
-  /*OR grid-template: repeat(7, 5vw) / repeat(8, 1fr);    grid-template: row / column;*/
   grid-gap: 1.5rem;
   padding: 1.5rem; }
   .gallery__item--1 {
@@ -419,8 +408,6 @@ body {
 
 .nav {
   list-style: none;
-  /*display: flex;
-    justify-content: center; OR */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-gap: 2rem;

@@ -22,6 +22,11 @@ This project is forked from [Original Repository](https://github.com/jonasschmed
 - Responsive design
 - Modern CSS with Flexbox and Grid
 
+## Deployed
+
+Deployed on [GitHub Pages](https://AzumaraJoseph.github.io/Nexter-Project)
+
+
 
 ## Built With
 - HTML
